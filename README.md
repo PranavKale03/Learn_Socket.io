@@ -1,6 +1,6 @@
 # Socket.IO Introduction
 
-Welcome to the [Repository Name]! This repository leverages the power of Socket.IO, a real-time web application framework, to enable seamless bidirectional communication between clients and servers. Whether you're building a chat application, online gaming platform, or any other real-time application, Socket.IO simplifies the complexities of WebSocket communication and provides a reliable and efficient solution.
+Welcome to the repository! This repository leverages the power of Socket.IO, a real-time web application framework, to enable seamless bidirectional communication between clients and servers. Whether you're building a chat application, online gaming platform, or any other real-time application, Socket.IO simplifies the complexities of WebSocket communication and provides a reliable and efficient solution.
 
 ## What is Socket.IO?
 
@@ -18,29 +18,31 @@ Socket.IO is a JavaScript library that enables real-time, bidirectional communic
 
 To start using Socket.IO in your project, follow these simple steps:
 
-1. **Installation:** Install the Socket.IO library using npm or yarn.
+1. **Installation:** Install the dependencies using npm or yarn.
     ```bash
-    npm install socket.io
+    npm install
     ```
     or
     ```bash
-    yarn add socket.io
+    yarn add
     ```
 
-2. **Server Setup:** Set up a Socket.IO server in your backend application.
-    ```javascript
-    const io = require('socket.io')(httpServer);
-    io.on('connection', (socket) => {
-        console.log('A user connected');
-    });
+2. **Server Setup:** Run backend server using npm or yarn.
+    ```bash
+    npm start
+    ```
+    or
+    ```bash
+    yarn start
     ```
 
-3. **Client Integration:** Integrate Socket.IO into your client-side application.
-    ```html
-    <script src="/socket.io/socket.io.js"></script>
-    <script>
-        const socket = io();
-    </script>
+3. **Client Integration:** Run client using npm or yarn.
+     ```bash
+    npm run dev
+    ```
+    or
+    ```bash
+    yarn run dev
     ```
 
 4. **Real-time Communication:** Start emitting and listening for events to enable real-time communication between clients and servers.
